@@ -1,0 +1,287 @@
+/*start global rules*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*    background: rgba(43, 4, 95, 0.78);*/
+body {
+    font-family: 'Work Sans', sans-serif;
+    /*center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    /* From https://css.glass */
+    background: rgba(65, 65, 65, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(65, 65, 65, 0.01);
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    /* From https://css.glass */
+    background: rgba(6, 6, 6, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(6, 6, 6, 0.01);
+}
+
+/*paragraph*/
+.content b {
+    color: red;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*image*/
+
+.box .image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 4.5%;
+    background-size: cover;
+}
+
+.box .image:hover img {
+    height: 400px;
+    width: 400px;
+    margin: -50px;
+    padding: 0;
+    transition: .3s;
+
+}
+
+/*icons*/
+
+.icons i {
+    /* font-size: 2rem;
+    margin: 2rem; */
+    font-size: 80px;
+    color: #1d0b0b7d;
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*position of icons*/
+.icons i:nth-child(1) {
+    position: absolute;
+    top: 57.1182%;
+    left: 27.3862%;
+    transform: rotate(198deg);
+}
+
+.icons i:nth-child(2) {
+    position: absolute;
+    top: 4.15909%;
+    left: 88.3427%;
+    transform: rotate(45deg);
+}
+
+.icons i:nth-child(3) {
+    position: absolute;
+    top: 17.8136%;
+    left: 11.4553%;
+    transform: rotate(14deg);
+}
+
+.icons i:nth-child(4) {
+    position: absolute;
+    top: 80.2705%;
+    left: 23.7846%;
+    transform: rotate(31deg);
+}
+
+.icons i:nth-child(5) {
+    position: absolute;
+    top: 34.6591%;
+    left: 19.0277%;
+    transform: rotate(73deg);
+}
+
+.icons i:nth-child(6) {
+    position: absolute;
+    top: 5.40682%;
+    left: 39.7542%;
+    transform: rotate(137deg);
+}
+
+.icons i:nth-child(7) {
+    position: absolute;
+    top: 40.40682%;
+    left: 82.7542%;
+    transform: rotate(3deg);
+}
+
+.icons i:nth-child(8) {
+    position: absolute;
+    top: 8.31818%;
+    left: 67.9559%;
+}
+
+.icons i:nth-child(9) {
+    position: absolute;
+    top: 3.38636%;
+    left: 1.679559%;
+    transform: rotate(2deg);
+}
+
+.icons i:nth-child(10) {
+    position: absolute;
+    top: 32.8568%;
+    left: 70.3344%;
+    transform: rotate(206deg);
+}
+
+.icons i:nth-child(11) {
+    position: absolute;
+    top: 36.1841%;
+    left: 4.48509%;
+    transform: rotate(83deg);
+}
+
+.icons i:nth-child(12) {
+    position: absolute;
+    top: 79.0227%;
+    left: 86.9835%;
+}
+
+.icons i:nth-child(13) {
+    position: absolute;
+    top: 57.5341%;
+    left: 78.3531%;
+    transform: rotate(9deg);
+}
+
+.icons i:nth-child(14) {
+    position: absolute;
+    top: 7.9227%;
+    left: 21.173%;
+    transform: rotate(303deg);
+}
+
+.icons i:nth-child(15) {
+    position: absolute;
+    top: 18.1614%;
+    left: 81.2753%;
+    transform: rotate(32deg);
+}
+
+.icons i:nth-child(16) {
+    position: absolute;
+    top: 60.4455%;
+    left: 11.8923%;
+    transform: rotate(230deg);
+}
+
+.icons i:nth-child(17) {
+    position: absolute;
+    top: 84.40682%;
+    left: 7.7542%;
+    transform: rotate(232deg);
+}
+
+.icons i:nth-child(19) {
+    position: absolute;
+    top: 83.1818%;
+    left: 70%;
+    transform: rotate(232deg);
+}
+
+.icons i:nth-child(20) {
+    position: absolute;
+    top: 6.93182%;
+    left: 54.3647%;
+    transform: rotate(232deg);
+}
+
+
+/*linked in*/
+.icons .social .lin i {
+    position: absolute;
+    top: 83.1818%;
+    left: 59.8018%;
+    color: #0077B5;
+    font-size: 60px;
+    transform: rotate(0deg)
+}
+
+/*facebook*/
+.icons .social .face i {
+    position: absolute;
+    top: 83.1818%;
+    left: 37.3757%;
+    color: #1877F2;
+    font-size: 60px;
+    transform: rotate(0deg)
+}
+
+/*whatsapp*/
+.icons .social .wha i {
+    position: absolute;
+    top: 83.1818%;
+    left: 44.85%;
+    color: #25D366;
+    font-size: 60px;
+    transform: rotate(0deg)
+}
+
+/*github*/
+.icons .social .git i {
+    position: absolute;
+    top: 83.1818%;
+    left: 52.236%;
+    color: #181717;
+    font-size: 60px;
+    transform: rotate(0deg)
+}
+
+/*icons hover*/
+.icons .social .lin i:hover {
+    color: #004471;
+    /* Change the color when hovering */
+    transform: scale(1.2);
+    /* Scale up the icon when hovering */
+}
+
+.icons .social .face i:hover {
+    color: #004471;
+    /* Change the color when hovering */
+    transform: scale(1.2);
+    /* Scale up the icon when hovering */
+}
+
+.icons .social .wha i:hover {
+    color: #004471;
+    /* Change the color when hovering */
+    transform: scale(1.2);
+    /* Scale up the icon when hovering */
+}
+
+.icons .social .git i:hover {
+    color: #040404;
+    /* Change the color when hovering */
+    transform: scale(1.2);
+    /* Scale up the icon when hovering */
+}
