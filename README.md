@@ -5,7 +5,7 @@ This project is a simple webpage that showcases links to my social media profile
 
 ## Preview
 ![Screenshot](https://github.com/K7413dS433d/Social-media/blob/main/images/Screenshot%202023-08-25%20143001.png)
-)
+
 
 ## Access the Page
 You can access the page using the following link: [Social Media Icons Page](https://k7413ds433d.github.io/Social-media/)
