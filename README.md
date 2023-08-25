@@ -8,7 +8,7 @@ This project is a simple webpage that showcases links to my social media profile
 
 
 ## Access the Page
-You can access the page using the following link: [Social Media Icons Page](https://k7413ds433d.github.io/Social-media/)
+You can access the page using the following link: [Social Media Page](https://k7413ds433d.github.io/Social-media/)
 
 ## Technologies Used
 - HTML
