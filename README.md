@@ -4,7 +4,8 @@
 This project is a simple webpage that showcases links to my social media profiles, including Facebook, WhatsApp, Github and LinkedIn. It's a convenient way for visitors to connect with me on different platforms.
 
 ## Preview
-![Screenshot](screenshot.png)
+![Screenshot](![image](https://github.com/K7413dS433d/Social-media/assets/94473456/a4c5dc4e-9f3c-47ba-ab56-f66646eb9dd4)
+)
 
 ## Access the Page
 You can access the page using the following link: [Social Media Icons Page](https://k7413ds433d.github.io/Social-media/)
