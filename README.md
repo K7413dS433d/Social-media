@@ -15,7 +15,5 @@ You can access the page using the following link: [Social Media Icons Page](http
 - CSS
 
 ## How to Use
-Simply click on the icons for Facebook, WhatsApp, or LinkedIn, and you'll be directed to the respective profiles.
+Simply click on the icons for Facebook, WhatsApp, Github or LinkedIn, and you'll be directed to the respective profiles.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
