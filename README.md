@@ -1,4 +1,4 @@
-# Social Media Icons Page
+# Social Media Page
 
 ## Overview
 This project is a simple webpage that showcases links to my social media profiles, including Facebook, WhatsApp, Github and LinkedIn. It's a convenient way for visitors to connect with me on different platforms.
